@@ -1,0 +1,11 @@
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\obj\Debug\CadastroProduto.csproj.AssemblyReference.cache
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\obj\Debug\CadastroProduto.csproj.SuggestedBindingRedirects.cache
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\obj\Debug\CadastroProduto.Form1.resources
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\obj\Debug\CadastroProduto.Properties.Resources.resources
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\obj\Debug\CadastroProduto.csproj.GenerateResource.cache
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\obj\Debug\CadastroProduto.csproj.CoreCompileInputs.cache
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\bin\Debug\CadastroProduto.exe.config
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\bin\Debug\CadastroProduto.exe
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\bin\Debug\CadastroProduto.pdb
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\obj\Debug\CadastroProduto.exe
+C:\Users\alice\source\repos\CadastroProduto\CadastroProduto\obj\Debug\CadastroProduto.pdb
