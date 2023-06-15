@@ -1,6 +1,8 @@
-﻿using System.ComponentModel.Design;
+﻿using System;
+using System.ComponentModel.Design;
 using System.Drawing;
 using System.Net.Http.Headers;
+using System.Windows.Forms;
 
 public class Lucro
 {
@@ -9,6 +11,7 @@ public class Lucro
     private double confins;
     private double pis;
     private double lucro;
+    public string unidade;
     public Lucro(double valor, double icms, double pis, double confins, double lucro)
     {
         this.valor = valor;
@@ -71,18 +74,14 @@ public class Lucro
 
     public double CalcularImposto(double valor, double icms, double pis, double confins, double lucro)
     {
-        double valor1 = valor * (icms / 100);
-        double valor2 = valor * (pis /100);
-        double valor3 = valor * (confins / 100);
+        double valor2 = (valor * (icms / 100)) + (valor * (pis / 100)) + (valor * (confins / 100));
+        valor = valor + valor2;
 
-        valor = valor1 + valor2 + valor3;
-
-        lucro = lucro * valor;
+        lucro = lucro + valor;
         double valorfinal;
 
-        valorfinal = lucro + valor;
+        valorfinal = lucro;
 
         return valorfinal;
     }
-
 }

@@ -32,6 +32,7 @@ namespace CadastroProduto
         {
             //botão cadastrar
             string descricao = descricao_tx.Text;
+            string tipo = unidade_tx.Text;
             double valor = Convert.ToDouble(valor_tx.Text);
             double pis = Convert.ToDouble(pis_tx.Text);
             double icms = Convert.ToDouble(icms_tx.Text);
@@ -40,7 +41,18 @@ namespace CadastroProduto
            
             Lucro l = new Lucro(valor, icms, pis, confins, lucro);
             double valorfinal =  l.CalcularImposto(valor, icms, pis, confins, lucro);
-            MessageBox.Show(valorfinal.ToString());
+
+            if (tipo == "LT" || tipo == "KG")
+            {
+                valorfinal += valorfinal * 0.05;
+                MessageBox.Show(valorfinal.ToString());
+
+            }
+
+            else
+            {
+                MessageBox.Show(valorfinal.ToString());
+            }
         }
 
         private void codigo_tx_TextChanged(object sender, EventArgs e)
